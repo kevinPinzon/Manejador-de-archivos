@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dver</class>
+ <widget class="QDialog" name="Dver">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>622</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lista de Registros</string>
+  </property>
+  <widget class="QTableWidget" name="tw_registros">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>568</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_agregarRegistro">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>3</y>
+     <width>570</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar Registro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>503</x>
+     <y>577</y>
+     <width>74</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_modificarRegistro">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>53</y>
+     <width>570</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modificar Registro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_eliminarRegistro">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>103</y>
+     <width>570</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Eliminar Registro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_operacionesCampos">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>577</y>
+     <width>172</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Operaciones De Campos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_cruzar">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>577</y>
+     <width>110</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cruzar Archivo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_masRegistros">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>577</y>
+     <width>120</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ver + Registros</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_buscarRegistro">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>153</y>
+     <width>570</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buscar Registro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_exportar">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>577</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exportar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

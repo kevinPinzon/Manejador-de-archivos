@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cruzar</class>
+ <widget class="QDialog" name="Cruzar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cruzar Archivos</string>
+  </property>
+  <widget class="QComboBox" name="cb_campos1">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>40</y>
+     <width>430</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_addCampo1">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>97</y>
+     <width>330</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar Campo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_addCampo2">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>250</y>
+     <width>330</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar Campo</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_campos2">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>193</y>
+     <width>430</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>6</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Campos de </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>155</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Campos de </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_nombre1">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>6</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_nombre2">
+   <property name="geometry">
+    <rect>
+     <x>236</x>
+     <y>155</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_terminar">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>411</y>
+     <width>440</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Terminar</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_campos3">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>356</y>
+     <width>430</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>320</y>
+     <width>190</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre del nuevo Archivo</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nombreArchivo">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>320</y>
+     <width>230</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

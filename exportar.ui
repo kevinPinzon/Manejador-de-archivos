@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exportar</class>
+ <widget class="QDialog" name="exportar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>131</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Exportar Archivo de Registro</string>
+  </property>
+  <widget class="QPushButton" name="btn_json">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>140</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exportar JSon</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_xml">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>140</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exportar XML</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_excel">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>140</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exportar Excel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_cerrar">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>92</y>
+     <width>100</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>6</y>
+     <width>190</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre del Nuevo Archivo</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nameArchivo">
+   <property name="geometry">
+    <rect>
+     <x>239</x>
+     <y>8</y>
+     <width>190</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
